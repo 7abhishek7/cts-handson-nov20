@@ -4,6 +4,6 @@ public class Empservice {
 	EmployeeDao emp=new EmployeeDao();
 	public void storeEmployee() {
 		emp.store();
-		System.out.println("inside store Employee of EmployeeService");
+		System.out.println("inside store Employee of EmpService");
 	}
 }

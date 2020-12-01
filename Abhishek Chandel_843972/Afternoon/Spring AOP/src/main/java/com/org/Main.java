@@ -9,6 +9,7 @@ public class Main {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		
 		EmployeeService service = (EmployeeService) context.getBean("employeeService");
+
 		service.delete();
 		service.store();
 		service.getEmployee(2);
